@@ -15,7 +15,6 @@
   width: 300px;
   height: 0;
   padding-top: 210px;
-  // animation: 1s appear, 8s scale infinite;
   animation: 1s appear;
   clip-path: url(#mrubens-logo);
   overflow: hidden;
@@ -48,18 +47,6 @@
   }
   100% {
     transform: rotate(360deg) rotateZ(360deg);
-  }
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 
