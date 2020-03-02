@@ -1,8 +1,9 @@
 <template>
   <div>
-    <section class="main-hero d-flex flex-column p-3">
+    <section class="main-hero d-flex flex-column mt-3 p-1">
       <!-- <main-nav /> -->
-      <div class="d-flex align-center justify-center flex-grow">
+      <!-- <div class="d-flex align-center justify-center flex-grow"> -->
+      <div class="container">
         <main-logo />
       </div>
     </section>
