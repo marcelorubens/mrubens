@@ -5,6 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $text-color;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 h1,
@@ -25,6 +27,7 @@ a {
 
 p {
   margin-bottom: .5rem;
+  font-size: 1.5rem;
 }
 
 .list-unstyled {
@@ -36,4 +39,7 @@ p {
 
 .font-bold { font-weight: 900; }
 
-.font-featured { color: $secondary; }
+.font-featured {
+  color: rgba(0, 0, 0, 0);
+  -webkit-text-stroke: 2px $secondary;
+}

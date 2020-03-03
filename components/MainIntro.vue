@@ -2,8 +2,10 @@
   <div>
     <div class="container py-3">
       <p class="font-huge font-bold mb-3">
-        Hi, I'm Marcelo, a <span class="font-featured">designer</span> &
-        <span class="font-featured">web developer</span> from Brazil.
+        Hi, I'm Marcelo, <br>
+        a <span class="font-featured">designer</span> <br>
+        & <span class="font-featured">web developer</span> <br>
+        from Brazil.
         <!-- Hi, I'm Marcelo, a designer and
         web developer from Brazil working
         in the field for a few years now.
