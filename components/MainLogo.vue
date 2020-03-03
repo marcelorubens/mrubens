@@ -29,9 +29,12 @@
     padding-top: 150%;
     top: -50%;
     left: -25%;
-    // background: radial-gradient(farthest-corner at 85% 85%, red, blue);
-    background: radial-gradient(farthest-corner at 85% 85%, $secondary, $purple);
-    animation: 5s rotation infinite linear;
+    background: radial-gradient(farthest-corner at 85% 85%, red, blue);
+    // background: radial-gradient(farthest-corner at 85% 85%, $secondary, $purple);
+    // background: repeating-radial-gradient(farthest-corner at 85% 85%,
+    //             $secondary 0 50px,
+    //             $medium-blue 0 60px);
+    animation: 150s rotation infinite linear;
     pointer-events: none;
   }
   svg { position: absolute; }
