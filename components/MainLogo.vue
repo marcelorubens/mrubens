@@ -34,7 +34,7 @@
     // background: repeating-radial-gradient(farthest-corner at 85% 85%,
     //             $secondary 0 50px,
     //             $medium-blue 0 60px);
-    animation: 150s rotation infinite linear;
+    animation: 10s rotation infinite linear;
     pointer-events: none;
   }
   svg { position: absolute; }

@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="main-hero d-flex flex-column mt-3 p-1">
-      <!-- <main-nav /> -->
+      <main-nav />
       <!-- <div class="d-flex align-center justify-center flex-grow"> -->
       <div class="container">
         <main-logo />
@@ -9,6 +9,9 @@
     </section>
     <section class="p-1">
       <main-intro />
+      <div class="container">
+        <device-hero />
+      </div>
     </section>
   </div>
 </template>
@@ -16,13 +19,15 @@
 <script>
 import MainLogo from '~/components/MainLogo.vue'
 import MainIntro from '~/components/MainIntro.vue'
-// import MainNav from '~/components/MainNav.vue'
+import DeviceHero from '~/components/DeviceHero.vue'
+import MainNav from '~/components/MainNav.vue'
 
 export default {
   components: {
     MainLogo,
-    MainIntro
-    // MainNav
+    MainIntro,
+    DeviceHero,
+    MainNav
   }
 }
 </script>
