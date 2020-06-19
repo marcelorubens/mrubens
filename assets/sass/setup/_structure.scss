@@ -1,12 +1,17 @@
 // Container
 .container {
+  position: relative;
   width: 100%;
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
 }
 
-section { min-height: 100vh; }
+section {
+  min-height: 100vh;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
 
 // Flex
 .d-flex { display: flex; }

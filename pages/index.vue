@@ -1,11 +1,9 @@
 <template>
-  <section class="p-1">
+  <div>
     <main-header />
     <main-intro />
-    <div class="container">
-      <device-hero />
-    </div>
-  </section>
+    <device-hero />
+  </div>
 </template>
 
 <script>

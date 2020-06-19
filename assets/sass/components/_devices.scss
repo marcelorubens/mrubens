@@ -1,0 +1,47 @@
+$device-border-mobile:  .5rem;
+$device-border-desktop: 1.25rem;
+
+$device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
+                0 8px 16px 6px rgba(0, 0, 0, 0.05);
+
+.device {
+  &__frame {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: $device-border-mobile;
+    background: $white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: $device-shadow;
+
+    &.mobile  {
+      position: absolute;
+      right: 0;
+      width: 28%;
+    }
+
+    &.desktop { width: 85%; }
+
+    &.mobile .device__screen  { padding-top: calc(1792 / 828  * 100%); }
+    &.desktop .device__screen { padding-top: calc(2048 / 2732 * 100%); }
+
+    @media screen and (min-width: 768px) {
+      padding: $device-border-desktop;
+    }
+  }
+  &__screen {
+    position: relative;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+    overflow-y: scroll;
+
+    img {
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+  }
+}
