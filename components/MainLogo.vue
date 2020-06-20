@@ -14,8 +14,6 @@
 
 .main-logo {
   position: relative;
-  // width: 40%;
-  // min-width: 300px;
   animation: 1s appear;
   clip-path: url(#main-logo);
   overflow: hidden;

@@ -5,31 +5,30 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
                 0 8px 16px 6px rgba(0, 0, 0, 0.05);
 
 .device {
-  &__frame {
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding: $device-border-mobile;
-    background: $white;
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: $device-shadow;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: $device-border-mobile;
+  background: $white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: $device-shadow;
 
-    &.mobile  {
-      position: absolute;
-      right: 0;
-      width: 28%;
-    }
-
-    &.desktop { width: 85%; }
-
-    &.mobile .device__screen  { padding-top: calc(1792 / 828  * 100%); }
-    &.desktop .device__screen { padding-top: calc(2048 / 2732 * 100%); }
-
-    @media screen and (min-width: 768px) {
-      padding: $device-border-desktop;
-    }
+  &.mobile  {
+    position: absolute;
+    right: 0;
+    width: 28%;
   }
+
+  &.desktop { width: 85%; }
+
+  &.mobile &__screen  { padding-top: calc(1792 / 828  * 100%); }
+  &.desktop &__screen { padding-top: calc(2048 / 2732 * 100%); }
+
+  @media screen and (min-width: 768px) {
+    padding: $device-border-desktop;
+  }
+
   &__screen {
     position: relative;
     width: 100%;
@@ -44,4 +43,17 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
       width: 100%;
     }
   }
+  
+  &.animation &__screen img { transform: translateY(-5rem); }
+
+  &.animation.play &__screen img {
+    animation: scroll-animation 1s forwards;
+    
+    @keyframes scroll-animation {
+      0%   { transform: translateY(-5rem); }
+      100% { transform: translateY(0); }
+    }
+  }
+
+  &.animation + &.animation &__screen img { animation-delay: .2s; }
 }
