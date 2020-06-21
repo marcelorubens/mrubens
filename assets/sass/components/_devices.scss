@@ -50,11 +50,11 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
   }
 
   @media screen and (min-width: $medium) {
-    &__screen { overflow-y: scroll; }
+    &.scroll &__screen { overflow-y: scroll; }
 
-    &.animation img               { transform: translateY(-5rem); }
-    &.animation.play img          { animation: scroll-animation 1s forwards; }
-    &.animation + &.animation img { animation-delay: .2s; }
+    &.scroll.animation img               { transform: translateY(-5rem); }
+    &.scroll.animation.play img          { animation: scroll-animation 1s forwards; }
+    &.scroll.animation + &.animation img { animation-delay: .2s; }
 
     @keyframes scroll-animation {
       0%   { transform: translateY(-5rem); }
