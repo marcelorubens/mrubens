@@ -14,7 +14,7 @@
 
 .main-logo {
   position: relative;
-  animation: 1s appear;
+  // animation: 1s appear;
   clip-path: url(#main-logo);
   overflow: hidden;
   &__ratio {
@@ -38,10 +38,10 @@
   svg { position: absolute; }
 }
 
-@keyframes appear {
-  0%   { opacity: 0; }
-  100% { opacity: 1; }
-}
+// @keyframes appear {
+//   0%   { opacity: 0; }
+//   100% { opacity: 1; }
+// }
 
 @keyframes rotation {
   0%   { transform: rotate(0deg)   rotateZ(360deg); }
