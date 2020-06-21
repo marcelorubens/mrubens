@@ -14,12 +14,40 @@ h3,
 .font-huge {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 900;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
-h1 { font-size: 3rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
+h1, .font-huge { font-size: 2.5rem; }
+h2             { font-size: 1.5rem; }
+h3,            { font-size: 1rem; }
+
+p {
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.font-huge { line-height: 2.8rem; }
+
+@media screen and (min-width: $medium) {
+  h1,
+  h2,
+  h3,
+  .font-huge {
+    margin-bottom: 1.5rem;
+  }
+
+  h1, .font-huge { font-size: 3rem; }
+  h2             { font-size: 2rem; }
+  h3,            { font-size: 1.5rem; }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  .font-huge { line-height: 3.2rem; }
+}
 
 a {
   color: $secondary;
@@ -27,17 +55,10 @@ a {
   font-weight: 600;
 }
 
-p {
-  margin-bottom: .5rem;
-  font-size: 1.5rem;
-}
-
 .list-unstyled {
   list-style: none;
   padding-left: 0;
 }
-
-.font-huge { font-size: 3rem; }
 
 .font-bold { font-weight: 900; }
 
