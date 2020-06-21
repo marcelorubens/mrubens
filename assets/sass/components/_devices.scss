@@ -1,5 +1,5 @@
-$device-border-mobile:  .5rem;
-$device-border-desktop: 1.25rem;
+$device-border-mobile:  .4rem;
+$device-border-desktop: 1rem;
 
 $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
                 0 8px 16px 6px rgba(0, 0, 0, 0.05);
@@ -10,7 +10,7 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
   position: relative;
   padding: $device-border-mobile;
   background: $white;
-  border-radius: 1rem;
+  border-radius: .8rem;
   overflow: hidden;
   box-shadow: $device-shadow;
 
@@ -25,8 +25,9 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
   &.mobile &__screen  { padding-top: calc(1792 / 828  * 100%); }
   &.desktop &__screen { padding-top: calc(2048 / 2732 * 100%); }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $medium) {
     padding: $device-border-desktop;
+    border-radius: 2rem;
   }
 
   &__screen {
@@ -35,21 +36,29 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
     height: 0;
     background: rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
-    overflow-y: scroll;
-
+    overflow: hidden;
+    
     img {
       position: absolute;
       top: 0;
       width: 100%;
     }
+
+    @media screen and (min-width: $medium) {
+      border-radius: 1.2rem;
+    }
   }
-  
-  &.animation img               { transform: translateY(-5rem); }
-  &.animation.play img          { animation: scroll-animation 1s forwards; }
-  &.animation + &.animation img { animation-delay: .2s; }
-  
-  @keyframes scroll-animation {
-    0%   { transform: translateY(-5rem); }
-    100% { transform: translateY(0); }
+
+  @media screen and (min-width: $medium) {
+    &__screen { overflow-y: scroll; }
+
+    &.animation img               { transform: translateY(-5rem); }
+    &.animation.play img          { animation: scroll-animation 1s forwards; }
+    &.animation + &.animation img { animation-delay: .2s; }
+
+    @keyframes scroll-animation {
+      0%   { transform: translateY(-5rem); }
+      100% { transform: translateY(0); }
+    }
   }
 }
