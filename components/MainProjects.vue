@@ -1,6 +1,8 @@
 <template>
   <div id="mainProjects">
     <project-component />
+    <project-component />
+    <project-component />
   </div>
 </template>
 

@@ -3,8 +3,6 @@
     <main-header />
     <main-intro />
     <main-projects />
-    <project-component />
-    <device-hero />
     <about-me />
     <contact-me />
   </div>
