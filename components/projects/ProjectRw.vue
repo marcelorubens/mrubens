@@ -5,7 +5,7 @@
         Timeshare Site Redesign
       </h2>
       <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
-      <device-hero />
+      <device-hero project-key="rw" scroll />
       <p>While the old layout wasn't delivering the general idea of trust, reliability and guiding the user through the advantages of renting a timeshare using their services, the new layout, on the other hand, tried to better introduce the service and provide several ways to lead the user to the next step on the flow.</p>
       <div style="width: 100%; height: 400px; background: #ddd; padding: 1rem" class="my-5">
         <p>old layout img</p>

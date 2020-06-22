@@ -1,17 +1,18 @@
 <template>
   <div id="mainProjects">
-    <project-component />
-    <project-component />
-    <project-component />
+    <project-rw />
+    <project-hrg />
   </div>
 </template>
 
 <script>
-import ProjectComponent from '~/components/ProjectComponent.vue'
+import ProjectRw from '~/components/projects/ProjectRw.vue'
+import ProjectHrg from '~/components/projects/ProjectHrg.vue'
 
 export default {
   components: {
-    ProjectComponent
+    ProjectRw,
+    ProjectHrg
   }
 }
 </script>

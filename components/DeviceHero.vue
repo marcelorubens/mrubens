@@ -1,19 +1,38 @@
 <template>
   <div ref="projectname" class="d-flex align-end justify-between my-5">
-    <div class="device desktop scroll animation" :class="{ play: visibleHero }">
+    <div
+      class="device desktop"
+      :class="{
+        play: visibleHero,
+        scroll, animation: scroll
+      }"
+    >
       <div class="device__screen">
-        <img src="@/assets/img/rw-desktop.jpg" alt="">
+        <img :src="require(`@/assets/img/${projectKey}-desktop.jpg`)" alt="">
       </div>
     </div>
-    <div class="device mobile scroll animation" :class="{ play: visibleHero }">
+    <div
+      class="device mobile"
+      :class="{
+        play: visibleHero,
+        scroll, animation: scroll
+      }"
+    >
       <div class="device__screen">
-        <img src="@/assets/img/rw-mobile.jpg" alt="">
+        <img :src="require(`@/assets/img/${projectKey}-mobile.jpg`)" alt="">
       </div>
     </div>
   </div>
 </template>
 <script>
 export default {
+  props: {
+    projectKey: {
+      type: String,
+      default: 'error'
+    },
+    scroll: Boolean
+  },
   data () {
     return {
       visibleHero: false
