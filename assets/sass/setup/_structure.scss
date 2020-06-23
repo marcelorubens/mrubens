@@ -9,18 +9,24 @@ body {
   }
 }
 
-// Container
+// Sections and containers
+
+section {
+  min-height: 100vh;
+  padding: 8rem $default-padding;
+}
+
 .container {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
 }
 
-section {
-  min-height: 100vh;
-  padding: 8rem 1.5rem;
+.full-width {
+  margin-right: -$default-padding;
+  margin-left: -$default-padding;
 }
 
 // Breakpoints
@@ -155,3 +161,8 @@ $large:  1024px;
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+
+// Viewport height
+
+.vh-80  { min-height: 80vh; }
+.vh-100 { min-height: 100vh; }
