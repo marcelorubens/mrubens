@@ -28,7 +28,8 @@ $medium: 768px;
 $large:  1024px;
 
 // Flex
-.d-flex { display: flex; }
+.d-flex    { display: flex; }
+.flex-wrap { flex-wrap: wrap; }
 
 // Direction
 .flex-row    { flex-direction: row; }
@@ -47,6 +48,15 @@ $large:  1024px;
 
 // Grow/shrink
 .flex-grow { flex-grow: 1; }
+
+// Row + column
+.row {
+  display: grid;
+  grid-gap: 2rem;
+  @media screen and (min-width: $medium) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 // Padding
 .p-1 { padding: 1rem; }

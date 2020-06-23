@@ -1,9 +1,6 @@
 $device-border-mobile:  .4rem;
 $device-border-desktop: 1rem;
 
-$device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
-                0 8px 16px 6px rgba(0, 0, 0, 0.05);
-
 .device {
   display: flex;
   align-items: center;
@@ -12,7 +9,7 @@ $device-shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
   background: $white;
   border-radius: .8rem;
   overflow: hidden;
-  box-shadow: $device-shadow;
+  box-shadow: $shadow;
 
   &.mobile  {
     position: absolute;

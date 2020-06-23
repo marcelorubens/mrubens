@@ -7,7 +7,11 @@
         & <span class="font-featured">web developer</span> <br>
         from Brazil.
       </p>
-      <p>Lorem ipsum dolor sit amet <a href="javascript:void(0)">consectetur adipisicing</a> elit. Omnis vel, vitae voluptatum, inventore adipisci id quibusdam deleniti maxime, animi praesentium aliquid. Nisi, dicta facere reprehenderit iste quis esse tempora illo.</p>
+      <p>
+        Here you can <a href="#mainProjects">check my work</a>,
+        <a href="#aboutMe">know about me</a> or
+        <a href="#contactMe">get in touch</a>.
+      </p>
     </div>
   </section>
 </template>

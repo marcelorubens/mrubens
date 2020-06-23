@@ -1,10 +1,14 @@
 // Colour
 
-$white:       #f2f2f2;
-$black:       #1e1e1e;
-$purple:      #620bad;
-$dark-blue:   #040011;
-$medium-blue: #009fa0;
-$secondary:   #ff0052;
+$white:          #f2f2f2;
+$black:          #1e1e1e;
+$purple:         #620bad;
+$dark-blue:      #040011;
+$medium-blue:    #009fa0;
+$secondary:      #ff0052;
+$secondary-dark: #d60045;
 
 $text-color: $black;
+
+$shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
+         0 8px 16px 6px rgba(0, 0, 0, 0.05);
