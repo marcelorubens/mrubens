@@ -11,11 +11,12 @@ a {
     background: $white;
     color: $black;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
     font-weight: 400;
     transition: .15s ease;
     word-break: keep-all;
     hyphens: none;
-    font-size: 1.8rem;
+    cursor: pointer;
 
     &:hover {
       background: $black;

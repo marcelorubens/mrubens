@@ -53,14 +53,23 @@ p {
 }
 
 a {
-  position: relative;
+  display: inline-block;
   color: $secondary;
   text-decoration: none;
   font-weight: 600;
   transition: color .1s;
+  cursor: pointer;
 
-  &:hover {
-    color: $secondary-dark;
+  &:hover { color: $secondary-dark; }
+
+  &.animation {
+    transform: translateY(-5px);
+    animation: anchor-effect .7s forwards;
+  
+    @keyframes anchor-effect {
+      0%   { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
   }
 }
 

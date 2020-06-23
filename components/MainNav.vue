@@ -1,14 +1,14 @@
 <template>
   <div class="main-nav">
     <div class="burger-menu">
-      <input id="burger_menu" type="checkbox">
+      <input id="burgerMenu" type="checkbox">
       <nav class="burger-menu--content">
-        <a href="#mainIntro" class="button">home</a>
-        <a href="#mainProjects" class="button">work</a>
-        <a href="#aboutMe" class="button">about</a>
-        <a href="#contactMe" class="button">contact</a>
+        <a class="button" @click="$parent.$parent.scrollTo('#mainIntro')">home</a>
+        <a class="button" @click="$parent.$parent.scrollTo('#mainProjects')">work</a>
+        <a class="button" @click="$parent.$parent.scrollTo('#aboutMe')">about</a>
+        <a class="button" @click="$parent.$parent.scrollTo('#contactMe')">contact</a>
       </nav>
-      <label for="burger_menu">
+      <label for="burgerMenu">
         <div class="burger-menu--icon">
           <span />
           <span />

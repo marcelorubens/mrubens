@@ -8,9 +8,9 @@
         from Brazil.
       </p>
       <p>
-        Here you can <a href="#mainProjects">check my work</a>,
-        <a href="#aboutMe">know about me</a> or
-        <a href="#contactMe">get in touch</a>.
+        Here you can <a class="animation" @click="$parent.scrollTo('#mainProjects')">check my work</a>,
+        <a class="animation" @click="$parent.scrollTo('#aboutMe')">know about me</a> or
+        <a class="animation" @click="$parent.scrollTo('#contactMe')">get in touch</a>.
       </p>
     </div>
   </section>
