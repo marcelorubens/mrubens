@@ -4,8 +4,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $text-color;
-  word-break: break-word;
-  hyphens: auto;
 }
 
 h1,
@@ -25,7 +23,11 @@ p {
   margin-bottom: 1.2rem;
   font-size: 1.2rem;
   line-height: 1.8rem;
-  text-align: justify;
+  &:not(.font-huge) {
+    word-break: break-word;
+    hyphens: auto;
+    // text-align: justify;
+  }
   &:last-child { margin-bottom: 0; }
 }
 

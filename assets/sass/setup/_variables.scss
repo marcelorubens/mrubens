@@ -1,7 +1,8 @@
 // Colour
 
-$white:          #f2f2f2;
-$black:          #1e1e1e;
+$white:          #fafafa;
+// $white:          #ffffff;
+$black:          #2e2e2e;
 $purple:         #620bad;
 $dark-blue:      #040011;
 $medium-blue:    #009fa0;
@@ -11,6 +12,7 @@ $secondary-dark: #d60045;
 $text-color: $black;
 
 $default-padding : 1.5rem;
+$default-radius : 1rem;
 
 $shadow: 0 5px 14px 1px rgba(0, 0, 0, 0.10),
          0 8px 16px 6px rgba(0, 0, 0, 0.05);

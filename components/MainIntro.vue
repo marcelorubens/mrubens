@@ -5,7 +5,7 @@
         Hi, I'm Marcelo, <br>
         a <span class="font-featured">designer</span> <br>
         & <span class="font-featured">web developer</span> <br>
-        from Brazil.
+        currently based in Brazil.
       </p>
       <p>
         Here you can <a class="animation" @click="$parent.scrollTo('#mainProjects')">check my work</a>,

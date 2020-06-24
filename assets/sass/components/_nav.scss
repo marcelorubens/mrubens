@@ -9,11 +9,11 @@ a {
     padding: .4rem 1rem;
     border: 2px solid $black;
     background: $white;
-    color: $black;
+    color: $secondary;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     font-weight: 400;
-    transition: .15s ease;
+    transition: background .15s ease;
     word-break: keep-all;
     hyphens: none;
     cursor: pointer;
@@ -21,7 +21,7 @@ a {
     &:hover {
       background: $black;
       color: $white;
-      transition: .15s ease;
+      transition: background .15s ease;
     }
   }
 }
