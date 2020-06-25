@@ -1,5 +1,5 @@
 <template>
-  <div ref="projectname" class="d-flex align-end justify-between my-5">
+  <div ref="projectname" class="devices-container align-center justify-between my-5">
     <div
       class="device desktop"
       :class="{

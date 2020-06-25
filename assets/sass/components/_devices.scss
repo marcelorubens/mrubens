@@ -1,6 +1,18 @@
 $device-border-mobile:  .4rem;
 $device-border-desktop: 1rem;
 
+.devices-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  align-items: center;
+  @media screen and (min-width: $medium) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+
 .device {
   display: flex;
   align-items: center;
@@ -12,12 +24,11 @@ $device-border-desktop: 1rem;
   box-shadow: $shadow;
 
   &.mobile  {
-    position: absolute;
-    right: 0;
-    width: 28%;
+    width: 50%;
+    transform: translateY(-10%);
   }
 
-  &.desktop { width: 85%; }
+  &.desktop { width: 100%; }
 
   &.mobile &__screen  { padding-top: calc(1792 / 828  * 100%); }
   &.desktop &__screen { padding-top: calc(2048 / 2732 * 100%); }
@@ -25,6 +36,15 @@ $device-border-desktop: 1rem;
   @media screen and (min-width: $medium) {
     padding: $device-border-desktop;
     border-radius: 2rem;
+
+    &.mobile  {
+      position: absolute;
+      right: 0;
+      width: 28%;
+      transform: none;
+    }
+
+    &.desktop { width: 85%; }    
   }
 
   &__screen {
@@ -47,16 +67,14 @@ $device-border-desktop: 1rem;
     }
   }
 
-  @media screen and (min-width: $medium) {
-    &.scroll &__screen { overflow-y: scroll; }
+  &.scroll &__screen { overflow-y: scroll; }
 
-    &.scroll.animation img               { transform: translateY(-5rem); }
-    &.scroll.animation.play img          { animation: scroll-animation 1s forwards; }
-    &.scroll.animation + &.animation img { animation-delay: .2s; }
+  &.scroll.animation img               { transform: translateY(-5rem); }
+  &.scroll.animation.play img          { animation: scroll-animation 1s forwards; }
+  &.scroll.animation + &.animation img { animation-delay: .2s; }
 
-    @keyframes scroll-animation {
-      0%   { transform: translateY(-5rem); }
-      100% { transform: translateY(0); }
-    }
+  @keyframes scroll-animation {
+    0%   { transform: translateY(-5rem); }
+    100% { transform: translateY(0); }
   }
 }
