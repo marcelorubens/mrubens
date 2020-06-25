@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="full-width gray-banner">
-      <div class="container d-flex">
+      <div class="container">
         <img src="@/assets/img/hrg-toolbar.png">
       </div>
     </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="full-width gray-banner">
-      <div class="container d-flex">
+      <div class="container">
         <img src="@/assets/img/hrg-qr.png">
       </div>
     </div>
