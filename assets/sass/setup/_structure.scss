@@ -19,7 +19,7 @@ section {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 950px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -56,12 +56,20 @@ $large:  1023px;
 // Grow/shrink
 .flex-grow { flex-grow: 1; }
 
-// Row + column
-.row {
+// Row
+.row-50 {
   display: grid;
   grid-gap: 4rem;
   @media screen and (min-width: $medium) {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+.row-60 {
+  display: grid;
+  grid-gap: 4rem;
+  @media screen and (min-width: $medium) {
+    grid-template-columns: 4fr 2fr;
   }
 }
 

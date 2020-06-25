@@ -34,6 +34,7 @@ $device-border-desktop: 1rem;
     background: rgba(0, 0, 0, 0.1);
     border-radius: .5rem;
     overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
     
     img {
       position: absolute;

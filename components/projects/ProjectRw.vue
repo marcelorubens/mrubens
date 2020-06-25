@@ -2,9 +2,13 @@
   <section>
     <div class="container">
       <h2 class="font-huge">Timeshare Site Redesign</h2>
-      <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
+      <div class="row-60">
+        <div>
+          <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
+        </div>
+      </div>
       <device-hero project-key="rw" scroll />
-      <div class="row my-5 vh-80">
+      <div class="row-50 my-5 vh-80">
         <div class="d-flex flex-column justify-center">
           <h2>Old design</h2>
           <p>While the old layout wasn't delivering the general idea of trust, reliability and guiding the user through the advantages of renting a timeshare using their services, the new layout, on the other hand, tried to better introduce the service and provide several ways to lead the user to the next step on the flow.</p>
