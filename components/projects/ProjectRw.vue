@@ -9,7 +9,7 @@
           <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
         </div>
       </div>
-      <device-hero project-key="rw" />
+      <device-hero project-key="rw" scroll />
       <div class="row-50 my-5 vh-80">
         <div class="d-flex flex-column justify-center">
           <h2>Old design</h2>

@@ -11,7 +11,6 @@
         </div>
       </div>
       <device-hero project-key="prs" scroll />
-
       <div class="row-60 my-5">
         <div>
           <p>
@@ -25,7 +24,6 @@
           </ul>
         </div>
       </div>
-
       <div class="row-60 my-5">
         <div>
           <h2>
@@ -35,7 +33,6 @@
           <p>Attention to detail is one of my main principles, so I designed the whole experience to be enjoyable on all screen sizes, with large clickable areas for tapping with the finger.</p>
         </div>
       </div>
-
       <div class="row-60 my-5">
         <div>
           <h2>
