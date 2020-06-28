@@ -1,13 +1,15 @@
 <template>
   <section>
     <div class="container">
-      <h2 class="font-huge">Timeshare Site Redesign</h2>
+      <h2 class="font-huge">
+        <span class="font-featured">01.</span> Timeshare Site Redesign
+      </h2>
       <div class="row-60">
         <div>
           <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
         </div>
       </div>
-      <device-hero project-key="rw" scroll />
+      <device-hero project-key="rw" />
       <div class="row-50 my-5 vh-80">
         <div class="d-flex flex-column justify-center">
           <h2>Old design</h2>
