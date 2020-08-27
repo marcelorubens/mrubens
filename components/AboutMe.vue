@@ -9,6 +9,11 @@
           <p>I'm a great team player, very curious, enthusiastic and chilled person always open for new exchanges.</p>
           <icon-links />
         </div>
+        <div>
+          <div class="profile-picture" :style="{ backgroundImage: `url(${profilePicture})` }">
+            <div class="profile-picture__bg" :style="{ backgroundImage: `url(${profileBg})` }"></div>
+          </div>
+        </div>
       </div>
       <div id="contactMe" class="my-5">
         <p class="mb-1">Want to know more about me or my work? Get in touch:</p>
@@ -19,11 +24,19 @@
 </template>
 
 <script>
+import profilePicture from '~/assets/img/profile-picture.png'
+import profileBg from '~/assets/img/icon.svg'
 import IconLinks from '~/components/IconLinks.vue'
 
 export default {
   components: {
     IconLinks
+  },
+  data () {
+    return {
+      profilePicture,
+      profileBg
+    }
   }
 }
 </script>

@@ -1,0 +1,25 @@
+.profile-picture {
+  height: 100%;
+  background-size: cover;
+  background-position-x: 50%;
+  background-color: #dddddd;
+  border-radius: 5px;
+  overflow: hidden;
+  &__bg {
+    height: calc(100% + 10rem);
+    width: calc(100% + 10rem);
+    background-repeat: repeat;
+    background-size: 5rem;
+    transform: translate(-5rem, -5rem);
+    animation: bg-motion 6s infinite linear;
+
+    @keyframes bg-motion {
+      0% {
+        transform: translate(-5rem, -5rem);
+      }
+      100% {
+        transform: translate(0, -10rem);
+      }
+    }
+  }
+}

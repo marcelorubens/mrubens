@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260">
+  <style>
+    .st6{display:none}
+  </style>
+  <g id="Layer_1">
+    <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="130.5" y1="246.194" x2="130.5" y2="12.806">
+      <stop offset="0" stop-color="#9f098c"/>
+      <stop offset="1" stop-color="#d2046d"/>
+    </linearGradient>
+    <path d="M130 165.7L102.5 46.5 70.6 59.6v186.5l22.9-9.6V119.8l25.8 106.5 26.4-10.3 20.6-124.4v116.5l24.1-9V12.8l-31.3 11.8c-5.6 29.2-25 118.2-29.1 141.1z" fill="url(#SVGID_1_)"/>
+  </g>
+</svg>
