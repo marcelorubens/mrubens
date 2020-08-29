@@ -1,11 +1,26 @@
 .profile-picture {
-  height: 100%;
-  background-size: cover;
-  background-position-x: 50%;
-  background-color: #dddddd;
-  border-radius: 5px;
+  position: relative;
   overflow: hidden;
+  border-radius: 5px;
+  &__img{
+    height: 80vh;
+    background-size: cover;
+    background-position-x: 50%;
+    background-color: #dddddd;
+    border-radius: 5px;
+  }
   &__bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 64vh;
+    height: 80vh;
+    transform: translateX(-50%);
+    clip-path: url(#profile-clip);
+    overflow: hidden;
+  }
+  &__bg-effect {
+    overflow: hidden;
     height: calc(100% + 10rem);
     width: calc(100% + 10rem);
     background-repeat: repeat;
