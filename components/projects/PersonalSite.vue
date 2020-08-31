@@ -29,7 +29,7 @@
           <h2>
             Design
           </h2>
-          <p>A very clean, spacious an typography based layout was made. The idea was to showcase the projects on different screen sizes, but not taking up much space on the screen, so the device prototypes with inside scroll allowed it to achieve the desired result, as well as adding some interaction to the site.</p>
+          <p>A very clean, spacious and typography based layout was made. The idea was to showcase the projects on different screen sizes, but not taking up much space on the screen, so the device prototypes with inside scroll allowed it to achieve the desired result, as well as adding some interaction to the site.</p>
           <p>Attention to detail is one of my main principles, so I designed the whole experience to be enjoyable on all screen sizes, with large clickable areas for tapping with the finger.</p>
         </div>
       </div>
