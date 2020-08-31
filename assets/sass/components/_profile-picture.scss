@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 5px;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
   &__img{
     height: 80vh;
     background-size: cover;
@@ -21,19 +22,21 @@
   }
   &__bg-effect {
     overflow: hidden;
-    height: calc(100% + 10rem);
-    width: calc(100% + 10rem);
+    height: calc(100% + 9rem);
+    width: calc(100% + 9rem);
     background-repeat: repeat;
-    background-size: 5rem;
-    transform: translate(-5rem, -5rem);
-    animation: bg-motion 6s infinite linear;
+    background-size: 4.5rem;
+    transform: translate(-4.5rem, -4.5rem);
 
-    @keyframes bg-motion {
-      0% {
-        transform: translate(-5rem, -5rem);
-      }
-      100% {
-        transform: translate(0, -10rem);
+    &.play {
+      animation: bg-motion 6s linear infinite;
+      @keyframes bg-motion {
+        0% {
+          transform: translate(-4.5rem, -4.5rem);
+        }
+        100% {
+          transform: translate(0, -9rem);
+        }
       }
     }
   }
