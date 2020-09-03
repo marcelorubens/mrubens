@@ -4,6 +4,7 @@
       <h2 class="font-huge">
         <span class="font-featured">02.</span> Apparel Customisation Tool
       </h2>
+      <project-tags ux_ui />
       <div class="row-60">
         <div>
           <p>Interface design of a web application tool for customising apparel on a well known fashion company's e-commerce.</p>
@@ -45,10 +46,12 @@
 <script>
 import DeviceHero from '~/components/DeviceHero.vue'
 import backgroundUrl from '@/assets/img/hrg-colors.png'
+import ProjectTags from '~/components/ProjectTags.vue'
 
 export default {
   components: {
-    DeviceHero
+    DeviceHero,
+    ProjectTags
   },
   data () {
     return {

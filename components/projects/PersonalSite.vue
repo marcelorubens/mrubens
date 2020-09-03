@@ -4,6 +4,7 @@
       <h2 class="font-huge">
         <span class="font-featured">03.</span> This website
       </h2>
+      <project-tags ux_ui dev />
       <div class="row-60">
         <div>
           <h2></h2>
@@ -49,10 +50,12 @@
 
 <script>
 import DeviceHero from '~/components/DeviceHero.vue'
+import ProjectTags from '~/components/ProjectTags.vue'
 
 export default {
   components: {
-    DeviceHero
+    DeviceHero,
+    ProjectTags
   }
 }
 </script>

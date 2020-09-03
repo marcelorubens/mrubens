@@ -4,6 +4,7 @@
       <h2 class="font-huge">
         <span class="font-featured">01.</span> Timeshare Site Redesign
       </h2>
+      <project-tags ux_ui />
       <div class="row-60">
         <div>
           <p>A very large and well known Timeshares company inquired about a redesign for their main Timeshare Rentals page.</p>
@@ -37,10 +38,12 @@
 
 <script>
 import DeviceHero from '~/components/DeviceHero.vue'
+import ProjectTags from '~/components/ProjectTags.vue'
 
 export default {
   components: {
-    DeviceHero
+    DeviceHero,
+    ProjectTags
   }
 }
 </script>
