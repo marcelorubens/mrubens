@@ -2,29 +2,28 @@
   position: relative; 
 }
 
-a {
-  text-decoration: none;
+.button {
+  padding: .4rem 1rem;
+  border: 2px solid $black;
+  background: $white;
+  color: $black;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  transition: background .15s ease;
+  word-break: keep-all;
+  hyphens: none;
+  cursor: pointer;
 
-  &.button {
-    padding: .4rem 1rem;
-    border: 2px solid $black;
-    background: $white;
-    color: $black;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
-    font-weight: 400;
+  &:hover {
+    background: $secondary;
+    color: $white;
     transition: background .15s ease;
-    word-break: keep-all;
-    hyphens: none;
-    cursor: pointer;
-
-    &:hover {
-      background: $secondary;
-      color: $white;
-      transition: background .15s ease;
-    }
   }
+
+  &:after { content: none; }
 }
+
 
 .burger-menu {
   position: absolute;
