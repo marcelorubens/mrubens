@@ -4,8 +4,7 @@
       <p class="font-huge font-bold mb-3">
         Hi, I'm Marcelo, <br>
         a <span class="font-featured">designer</span> <br>
-        & <span class="font-featured">web developer</span> <br>
-        currently based in Brazil.
+        & <span class="font-featured">web developer</span>.
       </p>
       <p>
         Here you can <a class="animation" @click="$parent.scrollTo('#mainProjects')">check my work</a>,
