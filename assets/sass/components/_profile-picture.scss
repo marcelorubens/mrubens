@@ -1,7 +1,7 @@
 .profile-picture {
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 2rem;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
   &__img{
     height: 80vh;
