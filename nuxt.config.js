@@ -25,7 +25,7 @@ export default {
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap' },
-      { rel: 'stylesheet', href: 'http://fonts.cdnfonts.com/css/montserrat' }
+      { rel: 'stylesheet', href: 'https://fonts.cdnfonts.com/css/montserrat' }
     ]
   },
   /*
