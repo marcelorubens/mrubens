@@ -30,7 +30,7 @@
 .main-logo-border {
   position: absolute;
   transform: scale(1.05) translateY(-1%);
-  path { fill: $white; }
+  path { fill: var(--body-color); }
 }
 .main-logo {
   position: relative;
@@ -46,7 +46,7 @@
     padding-top: 150%;
     top: -50%;
     left: -25%;
-    background: radial-gradient(farthest-corner at 85% 85%, $secondary, $purple);
+    background: radial-gradient(farthest-corner at 85% 85%, var(--secondary), var(--purple));
     animation: 10s rotation infinite linear;
     pointer-events: none;
   }

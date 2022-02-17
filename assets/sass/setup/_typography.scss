@@ -3,7 +3,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $text-color;
+  color: var(--text-color);
   word-break: break-word;
   hyphens: auto;
 }
@@ -41,8 +41,8 @@ ul {
       width: .6rem;
       height: .6rem;
       border-radius: 100%;
-      background: $secondary;
-      box-shadow: 0 3px 15px rgba($secondary, .3);
+      background: var(--secondary);
+      box-shadow: 0 3px 15px rgba(var(--secondary), .3);
       left: 0;
       top: .6rem;
     }
@@ -78,10 +78,10 @@ ul {
 a {
   position: relative;
   display: inline-block;
-  color: $secondary;
+  color: var(--link-default);
   text-decoration: none;
   font-weight: 600;
-  text-shadow: 0 3px 15px rgba($secondary, .3);
+  text-shadow: 0 3px 15px rgba(var(--link-hover), .3);
   transition: color .1s;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
@@ -92,7 +92,7 @@ a {
   -ms-user-select: none;
   user-select: none;
 
-  &:hover { color: $secondary-dark; }
+  &:hover { color: var(--link-hover); }
 
   @media screen and (min-width: $medium) {
     &:after {
@@ -106,7 +106,7 @@ a {
     }
     
     &:hover:after {
-      background: $secondary-dark;
+      background: var(--link-hover);
       transform: translateY(-3px);
     }
 
@@ -140,7 +140,15 @@ a {
 
 .font-featured {
   color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 1px $black;
+  -webkit-text-stroke-color: var(--text-color);
+  -webkit-text-stroke-width: 1px;
+  @media (prefers-color-scheme: dark) and (min-width: $medium) {
+    -webkit-text-stroke-width: 2px;
+  }
+}
+
+.font-secondary {
+  color: var(--secondary);
 }
 
 .text-center { text-align: center; }
