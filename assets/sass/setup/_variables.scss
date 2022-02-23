@@ -1,15 +1,27 @@
 // Colour
+ 
+:root { 
+  --white:           #fafafa;
+  --light-gray:      #f5f5f5;
+  --dark-gray:       #222232;
+  --black:           #111111;
+  --purple:          #620bad;
+  --dark-blue:       #040011;
+  --secondary:       #ff0052;
+  --secondary-dark:  #d60059;
 
-$white:          #fafafa;
-$light-gray:     #f5f5f5;
-$black:          #2e2e2e;
-$purple:         #620bad;
-$dark-blue:      #040011;
-$medium-blue:    #009fa0;
-$secondary:      #ff0052;
-$secondary-dark: #d60045;
-
-$text-color: $black;
+  --text-color:   var(--dark-gray);
+  --body-color:   var(--white);
+  --link-default: var(--secondary);
+  --link-hover:   var(--secondary-dark);
+  --card-color:   var(--white);
+  
+  @media (prefers-color-scheme: dark) {
+    --text-color:   var(--white);
+    --body-color:   var(--dark-blue);
+    --card-color:   var(--dark-gray);
+  }
+}
 
 $default-padding : 1.5rem;
 $default-radius : 1rem;
