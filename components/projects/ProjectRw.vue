@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <h2 class="font-huge">
-        <span class="font-featured">01.</span> Timeshare Site Redesign
+        <span class="font-featured font-featured--secondary">01.</span> Timeshare Site Redesign
       </h2>
       <project-tags ux_ui />
       <div class="row-60">

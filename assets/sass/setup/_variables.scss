@@ -3,15 +3,14 @@
 :root { 
   --white:           #fafafa;
   --light-gray:      #f5f5f5;
-  --black:           #2e2e2e;
+  --dark-gray:       #222232;
+  --black:           #111111;
   --purple:          #620bad;
   --dark-blue:       #040011;
-  --medium-blue:     #009fa0;
   --secondary:       #ff0052;
-  --secondary-light: #ff5188;
-  --secondary-dark:  #d60045;
+  --secondary-dark:  #d60059;
 
-  --text-color:   var(--black);
+  --text-color:   var(--dark-gray);
   --body-color:   var(--white);
   --link-default: var(--secondary);
   --link-hover:   var(--secondary-dark);
@@ -20,8 +19,7 @@
   @media (prefers-color-scheme: dark) {
     --text-color:   var(--white);
     --body-color:   var(--dark-blue);
-    --link-hover:   var(--secondary-light);
-    --card-color:   var(--black);
+    --card-color:   var(--dark-gray);
   }
 }
 

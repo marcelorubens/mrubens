@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <h2 class="font-huge">
-        <span class="font-featured">02.</span> Apparel Customisation Tool
+        <span class="font-featured font-featured--secondary">02.</span> Apparel Customisation Tool
       </h2>
       <project-tags ux_ui />
       <div class="row-60">
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="full-width gray-banner">
+    <div class="full-width gray-banner mt-4">
       <div class="container">
         <img src="@/assets/img/hrg-toolbar.png">
       </div>

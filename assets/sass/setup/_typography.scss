@@ -145,6 +145,9 @@ a {
   @media (prefers-color-scheme: dark) and (min-width: $medium) {
     -webkit-text-stroke-width: 2px;
   }
+  &--secondary {
+    -webkit-text-stroke-color: var(--secondary);
+  }
 }
 
 .font-secondary {
