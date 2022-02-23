@@ -8,3 +8,5 @@ body {
 .shadow { box-shadow: $shadow; }
 
 .border-radius { border-radius: $default-radius; }
+
+*::selection { background: var(--secondary-dark); }
