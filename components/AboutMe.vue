@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import profilePicture from '~/assets/img/profile-picture.png'
-import profileBg from '~/assets/img/icon.svg'
+import profilePicture from '~/static/img/profile-picture.png'
+import profileBg from '~/static/img/icon.svg'
 import IconLinks from '~/components/IconLinks.vue'
 
 export default {

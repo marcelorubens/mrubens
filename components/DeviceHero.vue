@@ -8,7 +8,7 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/assets/img/${projectKey}-desktop.jpg`)" alt="">
+        <img :src="require(`@/static/img/${projectKey}-desktop.jpg`)" alt="">
       </div>
     </div>
     <div
@@ -19,7 +19,7 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/assets/img/${projectKey}-mobile.jpg`)" alt="">
+        <img :src="require(`@/static/img/${projectKey}-mobile.jpg`)" alt="">
       </div>
     </div>
   </div>
