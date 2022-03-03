@@ -65,6 +65,13 @@ $device-border-desktop: 1rem;
     @media screen and (min-width: $medium) {
       border-radius: 1.2rem;
     }
+
+    &__overlay {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+    }
   }
 
   &.scroll &__screen { overflow-y: scroll; }

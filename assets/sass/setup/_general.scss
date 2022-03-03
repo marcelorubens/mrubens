@@ -9,4 +9,7 @@ body {
 
 .border-radius { border-radius: $default-radius; }
 
-*::selection { background: var(--secondary-dark); }
+*::selection {
+  background: var(--secondary-dark);
+  color: var(--white);
+}

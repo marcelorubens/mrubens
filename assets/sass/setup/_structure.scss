@@ -106,7 +106,14 @@ $large:  1023px;
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: $medium) {
+  .p-sm-1 { padding: 1rem; }
+  .p-sm-2 { padding: 1.5rem; }
+  .p-sm-3 { padding: 2rem; }
+}
+
 // Margin
+.m-0 { margin: 0; }
 .m-1 { margin: 1rem; }
 .m-2 { margin: 1.5rem; }
 .m-3 { margin: 2rem; }

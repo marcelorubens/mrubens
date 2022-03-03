@@ -8,7 +8,7 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/static/img/${projectKey}-desktop.jpg`)" alt="">
+        <img :src="require(`@/static/img/${projectKey}-desktop.${imageFormat}`)">
       </div>
     </div>
     <div
@@ -19,7 +19,10 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/static/img/${projectKey}-mobile.jpg`)" alt="">
+        <img :src="require(`@/static/img/${projectKey}-mobile.${imageFormat}`)">
+      </div>
+      <div v-if="mobileOverlay" class="device__screen__overlay">
+        <img :src="require(`@/static/img/${projectKey}-mobile-overlay.png`)">
       </div>
     </div>
   </div>
@@ -31,7 +34,12 @@ export default {
       type: String,
       default: 'error'
     },
-    scroll: Boolean
+    imageFormat: {
+      type: String,
+      default: 'jpg'
+    },
+    scroll: Boolean,
+    mobileOverlay: Boolean
   },
   data () {
     return {

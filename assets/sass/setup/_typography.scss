@@ -24,7 +24,7 @@ h3             { font-size: 1rem; }
 p,
 ul li {
   margin-bottom: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.8rem;
   &:last-child { margin-bottom: 0; }
 }
@@ -152,6 +152,10 @@ a {
 
 .font-secondary {
   color: var(--secondary);
+}
+
+.font-gray {
+  color: var(--medium-gray);
 }
 
 .text-center { text-align: center; }

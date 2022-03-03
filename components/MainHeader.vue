@@ -1,7 +1,7 @@
 <template>
   <div class="main-header d-flex justify-between align-start">
-    <main-logo />
-    <main-nav />
+    <main-logo :not-main-page="notMainPage" />
+    <main-nav v-if="!notMainPage" />
   </div>
 </template>
 
@@ -13,6 +13,9 @@ export default {
   components: {
     MainLogo,
     MainNav
+  },
+  props: {
+    notMainPage: Boolean
   }
 }
 </script>
