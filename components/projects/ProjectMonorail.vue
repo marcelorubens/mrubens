@@ -3,7 +3,7 @@
     <div class="container">
       <p class="font-gray"><i>Disclaimer: this is private content, please do not share anywhere public.</i></p>
       <h2 class="font-huge">
-        Monorail
+        <span class="font-featured font-featured--secondary">03.</span> Monorail
       </h2>
       <project-tags ux_ui dev />
       <div class="row-60">
