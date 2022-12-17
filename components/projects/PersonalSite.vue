@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <h2 class="font-huge">
-        <span class="font-featured font-featured--secondary">04.</span> This website
+        <span class="font-featured font-featured--secondary">05.</span> This website
       </h2>
       <project-tags ux_ui dev />
       <div class="row-60">
