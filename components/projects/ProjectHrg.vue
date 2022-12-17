@@ -14,7 +14,7 @@
       <device-hero project-key="hrg" />
       <p class="text-center">A fully interactive prototype was made using Sketch App to present the idea.</p>
     </div>
-    <div class="colors-banner full-width d-flex align-center mt-5" :style="{ backgroundImage: `url(${backgroundUrl})` }">
+    <div class="colors-banner border-radius d-flex align-center mt-5" :style="{ backgroundImage: `url(${backgroundUrl})` }">
       <div class="container d-flex">
         <div>
           <h2>Toolbar</h2>
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="full-width gray-banner mt-4">
+    <div class="border-radius gray-banner mt-4">
       <div class="container">
         <img src="@/static/img/hrg-toolbar.png">
       </div>
@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <div class="full-width gray-banner">
+    <div class="border-radius gray-banner">
       <div class="container">
         <img src="@/static/img/hrg-qr.png">
       </div>
