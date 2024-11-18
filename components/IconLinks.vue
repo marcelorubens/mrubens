@@ -1,6 +1,6 @@
 <template>
   <div class="icon-links">
-    <a href="https://www.linkedin.com/in/marcelorubens/" target="_blank" class="animation">
+    <a href="https://www.linkedin.com/in/marcelo-rubens/" target="_blank" class="animation">
       <svg viewBox="0 0 448 448" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 0v448h448V0H0zm135.4 384H69V170.2h66.5V384h-.1zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 64 102.2 64c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V280c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V384h-66.4V170.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V384z" fill="currentColor"/>
       </svg>

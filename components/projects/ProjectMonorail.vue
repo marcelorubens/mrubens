@@ -46,7 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="full-width gray-banner my-5">
+    <div class="border-radius gray-banner my-5">
       <div class="container">
         <div class="row-60 align-center">
           <img src="@/static/img/mr-navbar.png">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="full-width gray-banner desktop-nav-banner my-5">
+    <div class="border-radius gray-banner desktop-nav-banner my-5">
       <div class="container">
         <div class="row-60 align-center">
           <div class="py-2 p-sm-2">
