@@ -139,12 +139,14 @@ a {
 .font-bold { font-weight: 900; }
 
 .font-featured {
-  color: rgba(0, 0, 0, 0);
+  // color: rgba(0, 0, 0, 0);
+  color: var(--body-color);
   -webkit-text-stroke-color: var(--text-color);
-  -webkit-text-stroke-width: 1px;
-  @media (prefers-color-scheme: dark) and (min-width: $medium) {
-    -webkit-text-stroke-width: 2px;
-  }
+  -webkit-text-stroke-width: 3px;
+  paint-order: stroke fill;
+  // @media (prefers-color-scheme: dark) and (min-width: $medium) {
+  //   -webkit-text-stroke-width: 4px;
+  // }
   &--secondary {
     -webkit-text-stroke-color: var(--secondary);
   }

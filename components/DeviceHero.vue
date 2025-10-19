@@ -8,7 +8,7 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/static/img/${projectKey}-desktop.${imageFormat}`)">
+        <img :src="`/img/${projectKey}-desktop.${imageFormat}`">
       </div>
     </div>
     <div
@@ -19,10 +19,10 @@
       }"
     >
       <div class="device__screen">
-        <img :src="require(`@/static/img/${projectKey}-mobile.${imageFormat}`)">
+        <img :src="`/img/${projectKey}-mobile.${imageFormat}`">
       </div>
       <div v-if="mobileOverlay" class="device__screen__overlay">
-        <img :src="require(`@/static/img/${projectKey}-mobile-overlay.png`)">
+        <img :src="`/img/${projectKey}-mobile-overlay.png`">
       </div>
     </div>
   </div>

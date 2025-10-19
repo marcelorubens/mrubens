@@ -25,7 +25,7 @@
     </div>
     <div class="border-radius gray-banner mt-4">
       <div class="container">
-        <img src="@/static/img/hrg-toolbar.png">
+        <img src="@/public/img/hrg-toolbar.png">
       </div>
     </div>
     <div class="container my-4">
@@ -37,7 +37,7 @@
     </div>
     <div class="border-radius gray-banner">
       <div class="container">
-        <img src="@/static/img/hrg-qr.png">
+        <img src="@/public/img/hrg-qr.png">
       </div>
     </div>
   </section>
@@ -45,7 +45,7 @@
 
 <script>
 import DeviceHero from '~/components/DeviceHero.vue'
-import backgroundUrl from '@/static/img/hrg-colors.png'
+import backgroundUrl from '@/public/img/hrg-colors.png'
 import ProjectTags from '~/components/ProjectTags.vue'
 
 export default {

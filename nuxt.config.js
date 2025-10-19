@@ -4,6 +4,9 @@ export default {
     port: 8000, // default: 3000     
     host: '0.0.0.0', // default: localhost   
   },   // other configs 
+  devServer: {
+    host: "0.0.0.0"
+  },
   mode: 'universal',
   /*
   ** Headers of the page
@@ -35,11 +38,9 @@ export default {
   /*
   ** Global CSS
   */
-  styleResources: {
-    scss: [
-      '@/assets/sass/global.scss'
-    ]
-  },
+  css: [
+    '@/assets/sass/global.scss'
+  ],
   /*
   ** Plugins to load before mounting the App
   */
@@ -56,7 +57,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/style-resources'
   ],
   /*
   ** Build configuration

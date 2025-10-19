@@ -17,12 +17,12 @@
           <p>While the old layout wasn't delivering the general idea of trust, reliability and guiding the user through the advantages of renting a timeshare using their services, the new layout, on the other hand, tried to better introduce the service and provide several ways to lead the user to the next step on the flow.</p>
         </div>
         <div class="d-flex flex-column justify-center">
-          <img src="@/static/img/rw-old.jpg" class="shadow border-radius">
+          <img src="@/public/img/rw-old.jpg" class="shadow border-radius">
         </div>
       </div>
     </div>
     <div class="isometric-banner full-width my-5">
-      <img src="@/static/img/rw-isometric.png">
+      <img src="@/public/img/rw-isometric.png">
       <div class="container d-flex justify-end">
         <div>
           <h2>Ideas & development</h2>

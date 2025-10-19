@@ -28,7 +28,7 @@
           </ul>
         </div>
         <div class="d-flex flex-column justify-center">
-          <img src="@/static/img/mr-old.png" class="shadow border-radius">
+          <img src="@/public/img/mr-old.png" class="shadow border-radius">
         </div>
       </div>
       <div class="row-60">
@@ -49,7 +49,7 @@
     <div class="border-radius gray-banner my-5">
       <div class="container">
         <div class="row-60 align-center">
-          <img src="@/static/img/mr-navbar.png">
+          <img src="@/public/img/mr-navbar.png">
           <div class="p-sm-2">
             <p class="m-0">
               Starting with mobile, the main categories became a floating nav bar.
@@ -68,7 +68,7 @@
           </div>
         </div>
       </div>
-      <img src="@/static/img/mr-navbar-desktop-2.png">
+      <img src="@/public/img/mr-navbar-desktop-2.png">
     </div>
     <div class="container">
       <div class="row-60">
