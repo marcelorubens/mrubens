@@ -1,7 +1,6 @@
 <template>
   <section>
     <div class="container">
-      <p class="font-gray"><i>Disclaimer: this is private content, please do not share anywhere public.</i></p>
       <h2 class="font-huge">
         <span class="font-featured font-featured--secondary">03.</span> Monorail
       </h2>
